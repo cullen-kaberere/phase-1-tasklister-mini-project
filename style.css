@@ -35,3 +35,33 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+/* Style for the delete button */
+.delete-btn {
+  background-color: red; /* Red background */
+  border: none; /* Remove border */
+  color: white; /* White text for the 'X' */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Change the cursor to pointer */
+  padding: 1px 5px; /* Smaller padding for a compact button */
+  border-radius: 2px; /* Slight rounding of corners */
+  font-size: 12px; /* Smaller font size */
+  margin-left: 10px; /* Space between the task and button */
+  vertical-align: middle; /* Align with the middle of the task text */
+}
+
+/* Hover effect for delete button */
+.delete-btn:hover {
+  background-color: darkred; /* Darken the background color on hover */
+}
+
+/* Style for the task list items */
+.task-item {
+  display: flex; /* Use flexbox for better alignment */
+  justify-content: space-between; /* Space between task text and button */
+  align-items: center; /* Vertically align button with task text */
+  margin-bottom: 8px; /* Add some spacing between tasks */
+}
+
+
+
